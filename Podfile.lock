@@ -1,79 +1,74 @@
 PODS:
-  - Alamofire (5.2.1)
-  - iOSSnapshotTestCase (6.2.0):
-    - iOSSnapshotTestCase/SwiftSupport (= 6.2.0)
-  - iOSSnapshotTestCase/Core (6.2.0)
-  - iOSSnapshotTestCase/SwiftSupport (6.2.0):
-    - iOSSnapshotTestCase/Core
+  - Alamofire (5.4.3)
+  - CocoaLumberjack (3.7.2):
+    - CocoaLumberjack/Core (= 3.7.2)
+  - CocoaLumberjack/Core (3.7.2)
   - IQKeyboardManagerSwift (6.5.6)
-  - NVActivityIndicatorView (5.1.1):
-    - NVActivityIndicatorView/Base (= 5.1.1)
-  - NVActivityIndicatorView/Base (5.1.1)
-  - RxAlamofire (5.7.0):
-    - RxAlamofire/Core (= 5.7.0)
-  - RxAlamofire/Core (5.7.0):
-    - Alamofire (~> 5.2)
-    - RxSwift (~> 5.1)
-  - RxBlocking (5.1.1):
-    - RxSwift (~> 5)
-  - RxCocoa (5.1.1):
-    - RxRelay (~> 5)
-    - RxSwift (~> 5)
-  - RxRelay (5.1.1):
-    - RxSwift (~> 5)
-  - RxSwift (5.1.1)
-  - RxTest (5.1.2):
-    - RxSwift (~> 5)
+  - Kingfisher (6.3.0)
+  - RxAlamofire (6.1.1):
+    - RxAlamofire/Core (= 6.1.1)
+  - RxAlamofire/Core (6.1.1):
+    - Alamofire (~> 5.4)
+    - RxSwift (~> 6.0)
+  - RxBlocking (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
   - SnapKit (5.0.1)
+  - SVGKit (3.0.0):
+    - CocoaLumberjack (~> 3.0)
   - Swinject (2.7.1)
   - SwinjectAutoregistration (2.7.0):
     - Swinject (~> 2.7)
 
 DEPENDENCIES:
   - Alamofire
-  - iOSSnapshotTestCase
   - IQKeyboardManagerSwift
-  - NVActivityIndicatorView
+  - Kingfisher
   - RxAlamofire
   - RxBlocking
   - RxCocoa
   - RxSwift
-  - RxTest
   - SnapKit
+  - SVGKit
   - Swinject
   - SwinjectAutoregistration
 
 SPEC REPOS:
   trunk:
     - Alamofire
-    - iOSSnapshotTestCase
+    - CocoaLumberjack
     - IQKeyboardManagerSwift
-    - NVActivityIndicatorView
+    - Kingfisher
     - RxAlamofire
     - RxBlocking
     - RxCocoa
     - RxRelay
     - RxSwift
-    - RxTest
     - SnapKit
+    - SVGKit
     - Swinject
     - SwinjectAutoregistration
 
 SPEC CHECKSUMS:
-  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
-  iOSSnapshotTestCase: 9ab44cb5aa62b84d31847f40680112e15ec579a6
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  CocoaLumberjack: b7e05132ff94f6ae4dfa9d5bce9141893a21d9da
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
-  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
-  RxAlamofire: 770e0bff75f5099251eefdb49aa86e4753e6f34d
-  RxBlocking: 5f700a78cad61ce253ebd37c9a39b5ccc76477b4
-  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
-  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
-  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
-  RxTest: 274549b747dca56f47c52c8991ec5cf797ecfe40
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  RxAlamofire: beb75a1c452d0de225651db4903f5d29d034a620
+  RxBlocking: 0b29f7d2079109a8de49c411381bed7c33ef1eeb
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
   Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
   SwinjectAutoregistration: 330f5012642a8b5c89a8a4adb0c5e52df07382c0
 
-PODFILE CHECKSUM: f16e50674ecf247e4dbc394b76078f80b6631ae1
+PODFILE CHECKSUM: 53b535d532c4d0f4c4ae22e5ee5b37ff5c71c0e2
 
 COCOAPODS: 1.10.1
