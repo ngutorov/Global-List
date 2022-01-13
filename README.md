@@ -1,8 +1,8 @@
-### Based on MVVM-C architecture, RxSwift and programmatic UI 
+### Based on MVVM-C architecture, RxSwift and reactive UI
 
 ___
 
-#### Main dependencies used in the project:
+> **Main dependencies used in the project:**
 
 ```
 RxSwift - Used to bind the flow between layers, including UI.
@@ -13,3 +13,4 @@ SnapKit - Used to make Auto Layout easy and short.
 
 IQKeyboardManagerSwift - Used to manage keyboard states if needed.
 ```
+___
